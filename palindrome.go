@@ -14,9 +14,10 @@ func isPalindrome(input string) bool {
 		
 }
 
+
 func main(){
 
-	input := "Akshay"
+	input := "akshay"
 	fmt.Println("---Palindrome Check---")
 	fmt.Println("Input: ", input)
 	if isPalindrome(input) == true{
@@ -25,4 +26,5 @@ func main(){
 		fmt.Println(input, "is not a Palindrome")
 	}
 		
+
 }
