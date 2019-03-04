@@ -31,3 +31,5 @@ func binarySearch(array_list[] int, key int)bool{
 	return true
 
 }
+
+//Time complexity is O(log n)
